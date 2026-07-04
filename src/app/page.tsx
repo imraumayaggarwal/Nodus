@@ -1,11 +1,15 @@
+// App.tsx
 import Navbar from "@/src/components/Navbar/Navbar"
-import AddButton from "@/src/components/add-button/add-button";
+import Hero from "@/src/components/Hero/Hero"
+import HowItWorks from "../components/HowItWorks/HowItWorks";
+
 
 export default function App() {
     return (
         <div>
             <Navbar />
-            <AddButton />
+            <Hero />
+            <HowItWorks></HowItWorks>
         </div>
     );
 }
